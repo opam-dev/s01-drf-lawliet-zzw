@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "djangoproject"
+version = "0.1.0"
+description = ""
+authors = ["李金华 <fjlijinhua@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "~3.2"
+mysqlclient = "^2.1.1"
+gunicorn = "^20.1.0"
+djangorestframework = "^3.14.0"
+django-filter = "^23.1"
+celery = "^5.2.7"
+django-celery-beat = "^2.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

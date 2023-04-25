@@ -1,0 +1,15 @@
+.DS_Store
+
+.idea
+.env
+.vscode
+
+__pycache__
+*.pyc
+*.pyo
+
+logs/
+tmp/
+venv/
+
+src/config.py
